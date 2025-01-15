@@ -174,7 +174,7 @@ public class LoginListener {
               inboundConnection.getVirtualHost().orElse(null),
               ((InboundConnection) inboundConnection).getRawVirtualHost().orElse(null),
               event.isOnlineMode(),
-			  ((InboundConnection) inboundConnection).getHandshakeIntent(),
+              ((InboundConnection) inboundConnection).getHandshakeIntent(),
               playerKey
           );
 
@@ -322,7 +322,7 @@ public class LoginListener {
                   InetSocketAddress.class,
                   String.class,
                   boolean.class,
-				  HandshakeIntent.class,
+                  HandshakeIntent.class,
                   IdentifiedKey.class
               )
           );
